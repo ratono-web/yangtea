@@ -64,6 +64,20 @@
     .min_width{
       min-width: 70px;
     }
+    @media (min-width: 1024px) {
+      .pos-fixed-layout {
+        display: flex;
+      }
+
+      .pos-left {
+        width: 65%;
+      }
+
+      .pos-right {
+        width: 35%;
+      }
+    }
+
   </style>
 </head>
 
@@ -211,9 +225,9 @@
     <!-- **********************MODALS END***************** -->
     <!-- Main content -->
     <section class="content">
-      <div class="row">
+      <div class="row pos-fixed-layout">
         <!-- left column -->
-        <div class="col-md-7">
+        <div class="col-lg-7 col-md-12 pos-left">
          
           <!-- general form elements -->
           <div class="box box-primary">
@@ -470,7 +484,7 @@
         </div>
         <!--/.col (left) -->
         <!-- right column -->
-        <div class="col-md-5">
+        <div class="col-lg-5 col-md-12 pos-right">
           <!-- Horizontal Form -->
           <div class="box box-info">
             <!-- form start -->
