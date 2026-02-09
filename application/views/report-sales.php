@@ -166,8 +166,8 @@
                            <table  id="report-data" >
                               <thead>
                                  <tr class="bg-blue">
-                                    <th class="text-right" style="width: 30%;"><img src="<?php echo $base_url; ?>uploads/company/company_logo.png" width="80px;" alt=""></th>
-                                    <th colspan="2" class="text-left" >CV Deepa Timur Mandiri <br> Jl. Raya Talang No.82, Wirantakan, Talang, Kec. Talang, Kabupaten Tegal, Jawa Tengah 52193 </th>
+                                    <th class="text-right" style="width: 30%;"><img src="<?php echo $base_url; ?>uploads/company/<?= $company_logo;?>" width="80px;" alt=""></th>
+                                    <!-- <th colspan="2" class="text-left" >CV Deepa Timur Mandiri <br> Jl. Raya Talang No.82, Wirantakan, Talang, Kec. Talang, Kabupaten Tegal, Jawa Tengah 52193 </th> -->
                                     <!-- <th style="">#</th>
                                     <th style=""><?= $this->lang->line('invoice_no'); ?></th>
                                     <th style=""><?= $this->lang->line('sales_date'); ?></th>

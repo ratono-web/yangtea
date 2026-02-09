@@ -66,8 +66,8 @@
             <div class="col-md-12 col-sm-12 col-xs-12" >
               <div class="info-box">
                 <div class="info-box-content" style="text-align-last: center;">
-                  <img src="<?php echo $base_url; ?>uploads/company/company_logo.png" width="110px;" alt="">
-                  <br> <strong>CV Deepa Timur Mandiri </strong><br> Jl. Raya Talang No.82, Wirantakan, Talang, Kec. Talang, Kabupaten Tegal, Jawa Tengah 52193
+                  <img src="<?php echo $base_url; ?>uploads/company/<?= $company_logo;?>" width="110px;" alt="">
+                  <!-- <br> <strong>CV Deepa Timur Mandiri </strong><br> Jl. Raya Talang No.82, Wirantakan, Talang, Kec. Talang, Kabupaten Tegal, Jawa Tengah 52193 -->
                 </div>
               </div>              
             </div>
