@@ -6,6 +6,9 @@ class Reports extends MY_Controller {
 		parent::__construct();
 		$this->load_global();
 		$this->load->model('reports_model','reports');
+		$this->load->model('company_model');
+		$company=$this->company_model->get_details();
+		$this->data['company_logo']=$company['company_logo'];
 	}
 	
 		
