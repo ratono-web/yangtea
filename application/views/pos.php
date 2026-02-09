@@ -908,7 +908,7 @@ function make_subtotal(item_id,rowcount){
   /*Discounr*/
   var discount_amt    =$("#item_discount_"+rowcount).val();
 
-  subtotal = (tax_type=='Inclusive') ? subtotal : parseFloat(subtotal) + parseFloat(tax_amount);
+  // subtotal = (tax_type=='Inclusive') ? subtotal : parseFloat(subtotal) + parseFloat(tax_amount);
 
   subtotal -= parseFloat(discount_amt);
   
