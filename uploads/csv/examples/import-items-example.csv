@@ -1,0 +1,6 @@
+Item Name,Unit Name,Alert Quantity,Purchase Price,Sales Price,Opening Stock,DISCOUNT TYPE,DISCOUNT
+Item Name 1,BOX,5,100,120,10,Percentage,10
+Item Name 2,PIECES,5,200,220,10,Fixed,5
+Item Name 3,PIECES,5,300,320,10,Percentage,10
+Item Name 4,PIECES,5,400,420,10,Fixed,5
+Item Name 5,PIECES,5,500,520,10,Percentage,10
