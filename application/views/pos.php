@@ -1316,6 +1316,11 @@ $('#order_date,#delivery_date,#cheque_date').datepicker({
       var item_discount_input = $("#item_discount_input_"+row_id).val();
       var item_discount_type = $("#item_discount_type_"+row_id).val();
 
+      // Default tax none selection
+      if(tax_id=='' || tax_id==null || typeof tax_id==='undefined'){
+        tax_id = '1'; //None
+      }
+
       //Set to Popup
       $("#item_discount_input").val(item_discount_input);
       $("#item_discount_type").val(item_discount_type).select2();

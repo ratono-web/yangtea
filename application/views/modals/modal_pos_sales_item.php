@@ -46,7 +46,7 @@
                                             $q2=$this->db->query($query2);
                                             if($q2->num_rows()>0)
                                              {
-                                              echo '<option value="1">-Select-</option>'; 
+                                              echo '<option value="">-Select-</option>'; 
                                               foreach($q2->result() as $res1)
                                                {
                                                  echo "<option data-tax='".$res1->tax."' data-tax-value='".$res1->tax_name."' value='".$res1->id."'>".$res1->tax_name."</option>";
