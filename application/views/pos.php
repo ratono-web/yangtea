@@ -891,11 +891,11 @@ function removerow(id){//id=Rowid
 
 //MAKE SUBTOTAL
 function make_subtotal(item_id,rowcount){
-  set_tax_value(rowcount);
+  // set_tax_value(rowcount);
 
    //Find the Tax type and Tax amount
-   var tax_type = $("#tr_tax_type_"+rowcount).val();
-   var tax_amount = $("#td_data_"+rowcount+"_11").val();
+  //  var tax_type = $("#tr_tax_type_"+rowcount).val();
+  //  var tax_amount = $("#td_data_"+rowcount+"_11").val();
 
   var sales_price     =$("#sales_price_"+rowcount).val();
   //var gst_per         =$("#tr_item_per_"+rowcount).val();
