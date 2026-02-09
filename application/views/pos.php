@@ -1318,7 +1318,7 @@ $('#order_date,#delivery_date,#cheque_date').datepicker({
 
       // Default tax none selection
       if(tax_id=='' || tax_id==null || typeof tax_id==='undefined'){
-        tax_id = '1'; //None
+        tax_id = 1; //None
       }
 
       //Set to Popup
