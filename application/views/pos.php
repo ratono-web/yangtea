@@ -64,7 +64,7 @@
     .min_width{
       min-width: 70px;
     }
-    @media (min-width: 980px) {
+    @media (min-width: 980px ) and (max-width: 1199px) {
       .pos-fixed-layout {
         display: flex;
       }
