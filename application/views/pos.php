@@ -76,6 +76,13 @@
       .pos-right {
         width: 35%;
       }
+
+      .flex {
+        display: flex;
+      }
+      .w4 {
+        width: 25%;
+      }
     }
 
   </style>
@@ -420,20 +427,20 @@
               <!-- /.box-body -->
 
               <div class="box-footer bg-gray">
-                <div class="row">
-                  <div class="col-md-3 text-right">
+                <div class="row flex">
+                  <div class="col-md-3 text-right w4">
                           <label> <?= $this->lang->line('quantity'); ?>:</label><br>
                           <span class="text-bold tot_qty"></span>
                   </div>
-                  <div class="col-md-3 text-right">
+                  <div class="col-md-3 text-right w4">
                           <label><?= $this->lang->line('total_amount'); ?>:</label><br>
                           <?= $CI->currency('<span style="font-size: 19px;" class="tot_amt text-bold"></span>');?>
                   </div>
-                  <div class="col-md-3 text-right">
+                  <div class="col-md-3 text-right w4">
                           <label><?= $this->lang->line('total_discount'); ?>:<a class="fa fa-pencil-square-o cursor-pointer" data-toggle="modal" data-target="#discount-modal"></a></label><br>
                           <?= $CI->currency('<span style="font-size: 19px;" class="tot_disc text-bold"></span>');?>
                   </div>
-                  <div class="col-md-3 text-right">
+                  <div class="col-md-3 text-right w4">
                           <label><?= $this->lang->line('grand_total'); ?>:</label><br>
                           <?= $CI->currency('<span style="font-size: 19px;" class="tot_grand text-bold"></span>');?>
                   </div>
