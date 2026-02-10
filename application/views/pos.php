@@ -83,6 +83,9 @@
       .w4 {
         width: 25%;
       }
+      .hide-on-tablet {
+        display: none !important;
+      }
     }
 
   </style>
@@ -399,7 +402,7 @@
                           }
                           $other_charges = '';//(isset($sales_id)) ? $other_charges : "";
                     ?>
-              <div class="row">
+              <div class="row hide-on-tablet">
                     <div class="col-xs-12 ">
                       <div class="col-md-6">
                            <div class="checkbox icheck">
