@@ -138,7 +138,7 @@
                    <span class="info-box-number"><?= $CI->currency(app_number_format($tot_sal_grand_total)); ?></span>
                 </div>
              </div>
-          </div>
+          </div> -->
           <div class="col-md-3 col-sm-6 col-xs-12">
              <div class="info-box">
                 <span class="info-box-icon bg-red "><i class="fa fa-minus-square-o"></i></span>
@@ -149,7 +149,7 @@
                 </div>
              </div>
           </div>
-       </div>
+       <!-- </div>
        <div class="row">
           <div class="col-md-3 col-sm-6 col-xs-12">
              <div class="info-box">
