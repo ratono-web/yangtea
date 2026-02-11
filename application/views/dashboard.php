@@ -122,10 +122,11 @@
         </div> -->
         <div class="col-md-3 col-sm-6 col-xs-12">
              <div class="info-box">
-                <span class="info-box-icon bg-green"><i class="fa fa-cart-plus"></i></span>
+                <span class="info-box-icon bg-red "><i class="fa fa-minus-square-o"></i></span>
                 <div class="info-box-content">
-                   <span class="text-bold text-uppercase"><?= $this->lang->line('todays_total_sales'); ?></span>
-                   <span class="info-box-number"><?= $CI->currency(app_number_format($todays_total_sales)); ?></span>
+                   <span class="text-bold text-uppercase"><?= $this->lang->line('total_expense_amount'); ?></span>
+                     <span class="info-box-number"><?= $CI->currency(app_number_format($tot_exp)); ?></span>
+                   </span>
                 </div>
              </div>
           </div>
