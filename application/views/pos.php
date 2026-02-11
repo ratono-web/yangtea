@@ -86,6 +86,20 @@
       .hide-on-tablet {
         display: none !important;
       }
+
+      .main-header {
+        position:relative
+      }
+      .main-header .logo,.main-header .navbar {
+        width:100%;
+        float:none
+      }
+      .main-header .navbar {
+        margin:0
+      }
+      .main-header .navbar-custom-menu {
+        float:right
+      }
     }
 
   </style>
@@ -340,7 +354,7 @@
               </div><!-- row end -->
               <br>
             <?php } ?>
-              <div class="row">
+              <div class="row hide-on-tablet">
                 <div class="col-md-6">
                   <div class="input-group">
                     <span class="input-group-addon" title="Customer"><i class="fa fa-user"></i></span>
