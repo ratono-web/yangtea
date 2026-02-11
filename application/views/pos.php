@@ -86,20 +86,7 @@
       .hide-on-tablet {
         display: none !important;
       }
-
-      .main-header {
-        position:relative
-      }
-      .main-header .logo,.main-header .navbar {
-        width:100%;
-        float:none
-      }
-      .main-header .navbar {
-        margin:0
-      }
-      .main-header .navbar-custom-menu {
-        float:right
-      }
+      
     }
 
   </style>
@@ -132,7 +119,7 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav hide-on-tablet">
             <?php if($CI->permissions('sales_view')) { ?>
             <li class=""><a href="<?php echo $base_url; ?>sales" title="View Sales List!"><i class="fa fa-list text-yellow" ></i> <span><?= $this->lang->line('sales_list'); ?></span></a></li>
             <?php } ?>
